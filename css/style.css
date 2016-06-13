@@ -1,0 +1,57 @@
+@charset "utf-8";
+body{
+	background: #CCCCCC;
+}
+div{
+	width: 950px;
+	/*外边距*/
+	margin:60px auto;
+	/*内边距*/
+	/*padding: 60px auto;*/
+}
+/*给图片固定的宽度*/
+.pic{
+	position: relative;
+	width: 150px;
+	/*height:220px;
+	/*添加边框，边框宽度为10px，边框类型为实现，边框颜色为 白色*/
+	border: 10px solid white;
+	/*设置阴影*/
+	box-shadow: 10px 10px 10px #aaaaaa;
+	/*设置过渡效果*/
+	transition: all;
+}
+/*图片旋转*/
+.pic1{
+	transform: rotate(10deg);
+}
+.pic2{
+	transform: rotate(-2deg);
+}
+.pic3{
+	transform: rotate(1deg);
+}
+.pic4{
+	transform: rotate(8deg);
+}
+.pic5{
+	transform: rotate(-3deg);
+}
+.pic6{
+	transform: rotate(4deg);
+}
+.pic7{
+	transform: rotate(-7deg);
+}
+.pic8{
+	transform: rotate(7deg);
+}
+.pic9{
+	transform: skew(20,100);
+}
+.pic:hover{
+	position: relative;
+	z-index: 99;
+	width: 200px;
+	ransform: rotate(0deg) scale(1.2) ;
+}
